@@ -2,6 +2,16 @@
 
 Esse é um jogo matematico feito em **python**.
 Ele usa a classe Calcular que importa a blibioteca **random**.
+~~~python
+    class Calcular:
+
+        def __init__(self: object, dificuldade: int, /) -> None:
+            self.__dificuldade: int = dificuldade
+            self.__valor1: int = self._gerar_valor
+            self.__valor2: int = self._gerar_valor
+            self.__operacao: int = randint(1, 3) # 1 = somar, 2 = diminuir, 3 = multiplicar
+            self.__resultado: int = self._gerar_resultado
+~~~
 
 O usuario começa o jogo escolhendo a dificuldade.
 `Informe o nível de dificulade desejado [1, 2, 3 ou 4]:`
