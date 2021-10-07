@@ -1,7 +1,7 @@
 # Python Game
 
-Esse é um jogo matematico feito em `python`.
-Ele usa a classe Calcular que importa a blibioteca `random`.
+Esse é um jogo matematico feito em **python**.
+Ele usa a classe Calcular que importa a blibioteca **random**.
 
 O usuario começa o jogo escolhendo a dificuldade.
 `Informe o nível de dificulade desejado [1, 2, 3 ou 4]:`
